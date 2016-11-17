@@ -9,7 +9,7 @@ include_recipe 'nginx::repo'
 package 'nginx' do
   action :install
 end
-printf "niyaniyniyaniyaniyaniyaniyaniyaniya)0000000000))))))))))))"
+
 
 
 service 'nginx' do
