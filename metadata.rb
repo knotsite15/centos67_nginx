@@ -5,6 +5,7 @@ license 'all_rights'
 description 'Installs/Configures centos67_nginx'
 long_description 'Installs/Configures centos67_nginx'
 version '0.1.0'
+supports 'centos'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
