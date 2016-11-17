@@ -71,7 +71,7 @@ Chef exec knife cookbook site cookbook site show yum | grep latest_version
 
 Add the latest version to the metadata.rb file.
 
-Depends ‘yum’, ‘~> 4.1.0’
+Depends ‘yum’, ‘= 4.1.0’
 
 7.	Add the yum::default recipe to recipes/default.rb file
 Include_recipe ‘yum::default’
@@ -82,7 +82,7 @@ This command generates Berksfile.lock file.
 9.	Configuring NGINX
 We need nginx cookbook for the nginx repo.
 Add the below line to metadata.rb.
-Depends ‘nginx’, ‘~>2.7.6’
+Depends ‘nginx’, ‘= 2.7.6’
 
 10.	Create the install_nginx.rb recipe file.
 Add the following piece of code into the file
