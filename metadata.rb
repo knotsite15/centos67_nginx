@@ -1,6 +1,6 @@
 name 'centos67_nginx'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Niya'
+maintainer_email 'github72@gmail.com'
 license 'all_rights'
 description 'Installs/Configures centos67_nginx'
 long_description 'Installs/Configures centos67_nginx'
